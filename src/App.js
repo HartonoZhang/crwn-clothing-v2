@@ -9,7 +9,10 @@ import Header from "./components/header/header.component";
 import CheckOutPage from "./pages/checkout/checkout.component";
 import SignInAndSignUpPage from "./pages/sign-in-and-sign-out/sign-in-and-sign-out.component";
 
-import { auth, createUserProfileDocument } from "./firebase/firebase.utils";
+import {
+  auth,
+  createUserProfileDocument
+} from "./firebase/firebase.utils";
 import { Component } from "react";
 
 import { setCurrentUser } from "./redux/user/user.actions";
